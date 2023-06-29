@@ -111,6 +111,7 @@ header .container:hover nav {
     text-align: center;
     width: 100%;
     padding: 20px;
+    background-color: rgb(0 0 0 / 70%);
 }
 
 header .container nav ul li {
@@ -126,7 +127,7 @@ header .container nav ul li:hover {
 
 header .container nav ul li a {
     font-size: 20px;
-    color: black;
+    color: white;
     transition: 0.3s;
 }
 
@@ -220,6 +221,7 @@ header .container nav ul li:hover a {
     right: 0;
     transform: translateY(-50%);
     z-index: 200;
+    border-radius: 10px;
 }
 
 .links i {
@@ -245,7 +247,7 @@ header .container nav ul li:hover a {
 }
 
 .links a:not(:last-of-type) {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 /* End Landing */
